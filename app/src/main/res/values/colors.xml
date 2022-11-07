@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#ffffff</color>
+
+    <color name="colorButton">#E181DA9A</color>
+    <color name="color_buttonnext">#43A047</color>
+
+    <color name="tab_indikator">#c0c0c0</color>
+    <color name="intro_tiltle_color">#000000</color>
+    <color name="intro_descriptio">#656565</color>
+    <color name="SignIn">#03E5DD</color>
+    <color name="name">#ffffff</color>
+    <color name="questionYes">#9CD65E</color>
+    <color name="questionNo">#E53935</color>
+    <color name="noChoice">#E3E0E0</color>
+
+
+</resources>

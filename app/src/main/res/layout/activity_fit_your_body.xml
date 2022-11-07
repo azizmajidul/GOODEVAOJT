@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    tools:context=".FitYourBody">
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Fit Your Body">
+
+    </TextView>
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textColor="#000000"
+        android:layout_marginStart="20dp"
+        android:textSize="18sp"
+        android:text="Height"></TextView>
+    <TextView
+        android:id="@+id/txtHight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:layout_marginStart="10dp"
+        android:textSize="18sp"
+        android:text="Your Height">
+    </TextView>
+    <com.kevalpatel2106.rulerpicker.RulerValuePicker
+        android:id="@+id/heightRuler"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:ruler_text_color="#000000"
+        app:indicator_width="2dp"
+        app:indicator_color="#B7F1EA"
+        app:notch_color="@android:color/black"
+        android:background="#FFFFFF"
+
+        >
+
+    </com.kevalpatel2106.rulerpicker.RulerValuePicker>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:textColor="#000000"
+        android:layout_marginStart="20dp"
+        android:textSize="18sp"
+        android:text="Weight">
+    </TextView>
+    <TextView
+        android:id="@+id/txtweight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:layout_marginStart="10dp"
+        android:textSize="18sp"
+        android:text="Your Weight"></TextView>
+    <com.kevalpatel2106.rulerpicker.RulerValuePicker
+        android:id="@+id/weightRuler"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        app:ruler_text_color="#000000"
+        app:indicator_color="#B7F1EA"
+        app:indicator_interval="14dp"
+        app:indicator_width="2dp"
+        app:notch_color="@android:color/black"
+        android:background="#FFFFFF">
+
+    </com.kevalpatel2106.rulerpicker.RulerValuePicker>
+    <Button
+
+        android:id="@+id/sumbitFit"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/bg_btn_nav"
+        android:text="Submit"
+        android:textColor="#ffffff"
+        android:textStyle="bold"/>
+
+</LinearLayout>

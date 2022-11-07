@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "525669203057",
+    "project_id": "otp-goodeva",
+    "storage_bucket": "otp-goodeva.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:525669203057:android:025ab2cb49aac8b13b2fd0",
+        "android_client_info": {
+          "package_name": "com.stmikbanisaleh.pemantauantidur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "525669203057-qt9mt88mb65gvlm90cak56dq34jpd5dv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.stmikbanisaleh.pemantauantidur",
+            "certificate_hash": "5f90a40eb2ee42b433ab997eff7e567cad7a80a8"
+          }
+        },
+        {
+          "client_id": "525669203057-2s0clbmj4omg4ncs1po9qbh8s0j3t0lc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAkAQ_zys2DAz2A52vsD8w8d1wg3mvOYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "525669203057-2s0clbmj4omg4ncs1po9qbh8s0j3t0lc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

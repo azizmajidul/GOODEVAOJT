@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PEMANTAUANTIDUR</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="choseGender">Step 1</string>
+    <string name="ChooseGoal">Step 2</string>
+    <string name="otp">OTP</string>
+    <string name="fitBody">Fit Your Body</string>
+
+
+
+    <string name="action_settings">Settings</string>
+    <string name="time_picker_example">Time Picker Example</string>
+    <string name="time_pick">Pick the time and press save button</string>
+    <string name="time_save">Save</string>
+    <string name="time_selected"></string>
+    <string name="time_current">The Time is:</string>
+
+</resources>
